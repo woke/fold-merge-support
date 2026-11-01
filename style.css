@@ -1,0 +1,12 @@
+:root { --paper: #f5eede; --ink: #161b24; --muted: #555b68; --accent: #bd3216; --field: #1d355b; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
+.eyebrow { color: var(--accent); font-size: 13px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; }
+.rule { width: 40px; height: 3px; background: var(--accent); margin-bottom: 14px; }
+h1, h2 { font-family: "Hiragino Mincho ProN", "Yu Mincho", "New York", Georgia, serif; font-weight: 600; line-height: 1.2; }
+h1 { font-size: 44px; margin: 12px 0 24px; }
+h2 { font-size: 26px; margin: 40px 0 8px; }
+p, li { color: var(--muted); }
+a { color: var(--field); }
+nav { margin-top: 56px; font-size: 15px; }
